@@ -1,0 +1,6 @@
+.trae
+commit/
+build/
+dist/
+node_modules/
+unpackage/
