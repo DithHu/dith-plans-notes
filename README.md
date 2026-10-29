@@ -19,7 +19,8 @@
 ## 配置步骤
 ### 1.mobile配置服务器url，点击申请。
 
-<img width="1904" height="756" alt="setting-pc" src="https://github.com/user-attachments/assets/2b288bf1-11e7-4167-8b8c-3e1cc9a2bb22" />
+<img width="399" height="836" alt="setting-h5" src="https://github.com/user-attachments/assets/bac40668-913b-4be4-a8b2-cb1ce296e719" />
+
 
 ### 2.web下游审批点击同意。
 
