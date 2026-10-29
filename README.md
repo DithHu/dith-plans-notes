@@ -4,7 +4,8 @@
 # web
 ## plans
 展示计划列表或者四象限。
-<img width="1904" height="756" alt="setting-pc" src="https://github.com/user-attachments/assets/ef03fcd7-bdf9-4846-840d-60db1496689f" />
+<img width="1898" height="891" alt="plan-pc" src="https://github.com/user-attachments/assets/494f16d9-37cd-4939-b98a-6e88354fd01d" />
+
 
 ## notes
 展示笔记，可以是url、text。
