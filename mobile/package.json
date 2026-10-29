@@ -1,0 +1,26 @@
+{
+  "name": "plan-note-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "uni-app 计划与笔记移动端",
+  "scripts": {
+    "dev:h5": "uni",
+    "build:h5": "uni build",
+    "dev:app": "uni -p app",
+    "build:app": "uni build -p app"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5030320261023001",
+    "@dcloudio/uni-app-plus": "3.0.0-5030320261023001",
+    "@dcloudio/uni-components": "3.0.0-5030320261023001",
+    "@dcloudio/uni-h5": "3.0.0-5030320261023001",
+    "js-md5": "^0.9.2",
+    "uview-plus": "^3.8.136",
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "3.0.0-5030320261023001",
+    "sass": "1.63.2",
+    "vite": "5.2.8"
+  }
+}
