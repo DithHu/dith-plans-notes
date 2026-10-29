@@ -1,0 +1,72 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/entry/entry",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/init/init",
+      "style": {
+        "navigationBarTitleText": "初始化账户"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/plan/list",
+      "style": {
+        "navigationBarTitleText": "计划"
+      }
+    },
+    {
+      "path": "pages/plan/edit",
+      "style": {
+        "navigationBarTitleText": "编辑计划"
+      }
+    },
+    {
+      "path": "pages/note/list",
+      "style": {
+        "navigationBarTitleText": "笔记"
+      }
+    },
+    {
+      "path": "pages/note/edit",
+      "style": {
+        "navigationBarTitleText": "编辑笔记"
+      }
+    },
+    {
+      "path": "pages/tag/tag",
+      "style": {
+        "navigationBarTitleText": "标签"
+      }
+    },
+    {
+      "path": "pages/sync/sync",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "计划笔记",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f6fa"
+  }
+}
