@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const Database = require('better-sqlite3');
+const cron = require('node-cron');
 
 const dataDir = path.join(__dirname, 'data');
 fs.mkdirSync(dataDir, { recursive: true });
@@ -10,6 +11,16 @@ const dbFile = process.env.DB_PATH ? path.resolve(process.env.DB_PATH) : path.jo
 fs.mkdirSync(path.dirname(dbFile), { recursive: true });
 const db = new Database(dbFile);
 db.pragma('journal_mode = WAL');
+cron.schedule('0 0 * * *', () => {
+  try {
+    db.pragma('wal_checkpoint(TRUNCATE)');
+  } catch (error) {
+    console.error('Error truncating WAL checkpoint:', error);
+  }
+}, {
+  scheduled: true,
+  timezone: 'Asia/Shanghai'   // 重要！不写默认 UTC
+});
 
 db.exec(`
 CREATE TABLE IF NOT EXISTS users (
