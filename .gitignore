@@ -5,3 +5,5 @@ dist/
 node_modules/
 unpackage/
 .vite/
+**/app.db*
+requirements.md
